@@ -1,12 +1,14 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -21,4 +23,35 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+.colBorder {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 10px;
+    width: 350px;
+    background-color: #F7F7F7;
+}
+
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+h3 {
+    font-family: 'Poppins', sans-serif;
+}
+h4 {
+    font-family: 'Poppins', sans-serif;
+}
+h5 {
+    font-family: 'Poppins', sans-serif;
+}
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+p {
+    font-family: 'Poppins', sans-serif;
 }

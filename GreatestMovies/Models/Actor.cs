@@ -12,6 +12,7 @@ namespace GreatestMovies.Models
         [Key]
         public int ActorID { get; set; }
         public string ActorName { get; set; }
+        [DataType(DataType.Date)]
         public DateTime DOB { get; set; }
         public string Nationality { get; set; }
         public string Gender { get; set; }
