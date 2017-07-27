@@ -10,6 +10,7 @@ namespace GreatestMovies.Models
     {
         [Key]
         public int GenreID { get; set; }
+        [Display(Name= "Genre")]
         public string GenreName { get; set; }
 
         ICollection<Movie> Movies { get; set; }

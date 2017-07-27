@@ -15,6 +15,7 @@
     @foreach (var item in Model)
     {
         <div class="col-md-4 colBorder">
+
             <h2 style="text-align:center">
                 @Html.DisplayFor(modelItem => item.ActorName)
             </h2>
@@ -34,6 +35,8 @@
                 @Html.ActionLink("Details", "Details", new { id = item.ActorID }) |
                 @Html.ActionLink("Delete", "Delete", new { id = item.ActorID })
             </p>
+
         </div>
     }
+
 </div>
